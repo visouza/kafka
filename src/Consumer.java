@@ -67,7 +67,7 @@ public class Consumer extends Thread
                 "-H", "\"Content-Type: text/xml\"", "--data-binary", "@"+byteString).start();
         out.flush();
         out.close();
-
+        new File(byteString).deleteOnExit();
     } catch (Exception e) {
         e.printStackTrace();
       }

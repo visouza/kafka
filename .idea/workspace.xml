@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8b62d8a-84b3-429b-9565-6caf89e7a2a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="DELETED" beforePath="C:\kafka\kafkatemp\kafka\out\production\kafka\SimpleConsumerDemo$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\kafka\kafkatemp\kafka\out\production\kafka\SimpleConsumerDemo$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\kafka\kafkatemp\kafka\out\production\kafka\SimpleConsumerDemo$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\kafka\kafkatemp\kafka\out\production\kafka\SimpleConsumerDemo.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/kafka/KafkaConsumerProducerDemo.class" afterPath="$PROJECT_DIR$/out/production/kafka/KafkaConsumerProducerDemo.class" />
-      <change type="MODIFICATION" beforePath="C:\kafka\kafkatemp\kafka\out\production\kafka\Producer.class" afterPath="C:\kafka\kafkatemp\kafka\out\production\kafka\Producer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/kafka/Consumer.class" afterPath="$PROJECT_DIR$/out/production/kafka/Consumer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Consumer.java" afterPath="$PROJECT_DIR$/src/Consumer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/KafkaConsumerProducerDemo.java" afterPath="$PROJECT_DIR$/src/KafkaConsumerProducerDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Producer.java" afterPath="$PROJECT_DIR$/src/Producer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -38,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="48" />
+              <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1235#1252#0" expanded="true" />
@@ -47,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KafkaConsumerProducerDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KafkaConsumerProducerDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KafkaConsumerProducerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6276923">
+            <state vertical-scroll-proportion="0.0">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
@@ -67,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.18681319">
+              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -108,8 +101,8 @@
         <option value="$PROJECT_DIR$/src/KafkaProperties.java" />
         <option value="$PROJECT_DIR$/src/SimpleConsumerDemo.java" />
         <option value="$PROJECT_DIR$/src/KafkaConsumerProducerDemo.java" />
-        <option value="$PROJECT_DIR$/src/Producer.java" />
         <option value="$PROJECT_DIR$/src/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/Producer.java" />
       </list>
     </option>
   </component>
@@ -398,7 +391,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431391651062</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit after kafka working">
+      <created>1431763809262</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1431763809262</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -412,7 +411,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3321976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3321976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29425114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -420,7 +419,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -468,7 +467,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit after shownig mmooman" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit after shownig mmooman" />
+    <MESSAGE value="commit after kafka working" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit after kafka working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,8 +485,14 @@
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Producer.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -829,10 +835,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Producer.java">
+    <entry file="file://$PROJECT_DIR$/src/KafkaConsumerProducerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -840,7 +846,7 @@
     <entry file="file://$PROJECT_DIR$/src/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="48" />
+          <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1235#1252#0" expanded="true" />
@@ -848,10 +854,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KafkaConsumerProducerDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6276923">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.18681319">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
           <folding />
         </state>
       </provider>

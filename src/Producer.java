@@ -28,7 +28,7 @@ public class Producer extends Thread
     File folder = new File(path);
     File[] listOfFiles = folder.listFiles();
     int i=0;
-    String Files[]= new String[listOfFiles.length+1];
+    String Files[]= new String[listOfFiles.length];
     while (i<listOfFiles.length)
     {
         System.out.println(listOfFiles[i].getName());
@@ -67,11 +67,10 @@ public class Producer extends Thread
 
 
       byte buffer[]=new byte[2048];
-      File file =new File("src/file.txt");
-      long fileLength=file.length();
-      String fileName=file.getName();
+      File file;
       DataInputStream messageStr;
       int n;
+      System.out.print(listOfFiles.length);
       for(int i=0;i<listOfFiles.length;i++) {
         file = new File(listOfFiles[i]);
         producer.send(new KeyedMessage<Integer, Object>(topic, file.getName().getBytes()));
@@ -85,6 +84,7 @@ public class Producer extends Thread
           // System.out.println(new String(send));
           producer.send(new KeyedMessage<Integer, Object>(topic, send));
         }
+        int f=0;
       }
     }
     catch(Exception e)
