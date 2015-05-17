@@ -10,12 +10,18 @@ import kafka.consumer.ConsumerIterator;
 import kafka.consumer.KafkaStream;
 import kafka.javaapi.consumer.ConsumerConnector;
 
-
+/**
+ * Class Consumer
+ * Description: Consumes files from kafka server and updates into solr
+ *
+ * Modified existing kafka example code to suit out case to upload to solr
+ */
 public class Consumer extends Thread
 {
   private final ConsumerConnector consumer;
   private final String topic;
-  
+
+  //contstructor to save topic and load consumer connections
   public Consumer(String topic)
   {
     consumer = kafka.consumer.Consumer.createJavaConsumerConnector(
@@ -23,6 +29,7 @@ public class Consumer extends Thread
     this.topic = topic;
   }
 
+  //initializes consumer configuration
   private static ConsumerConfig createConsumerConfig()
   {
     Properties props = new Properties();
@@ -35,6 +42,8 @@ public class Consumer extends Thread
     return new ConsumerConfig(props);
 
   }
+
+  //snippet taken from web to convert bytes to long using byte manipulation
   public static long bytesToLong(byte[] b) {
     long result = 0;
     for (int i = 0; i < 8; i++) {
@@ -43,7 +52,10 @@ public class Consumer extends Thread
     }
     return result;
   }
+
+
   public void run() {
+
     Map<String, Integer> topicCountMap = new HashMap<String, Integer>();
     topicCountMap.put(topic, new Integer(1));
     Map<String, List<KafkaStream<byte[], byte[]>>> consumerMap = consumer.createMessageStreams(topicCountMap);

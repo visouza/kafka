@@ -1,11 +1,11 @@
 
+import kafka.producer.ProducerConfig;
+import kafka.producer.KeyedMessage;
+
 import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
-import java.nio.ByteBuffer;
 import java.util.Properties;
-import kafka.producer.KeyedMessage;
-import kafka.producer.ProducerConfig;
 
 public class Producer extends Thread
 {
@@ -70,7 +70,7 @@ public class Producer extends Thread
       File file;
       DataInputStream messageStr;
       int n;
-      System.out.print(listOfFiles.length);
+      //System.out.print(listOfFiles.length);
       for(int i=0;i<listOfFiles.length;i++) {
         file = new File(listOfFiles[i]);
         producer.send(new KeyedMessage<Integer, Object>(topic, file.getName().getBytes()));

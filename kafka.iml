@@ -7,27 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../kafka-0.8.2.1-src/clients/build/libs/kafka-clients-0.8.2.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../kafka_2.10-0.8.2.1/libs" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../../kafka_2.10-0.8.2.1/libs" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../../kafka_2.10-0.8.2.1/libs" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../../kafka_2.10-0.8.2.1/libs" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" exported="" name="lib" level="project" />
   </component>
 </module>
